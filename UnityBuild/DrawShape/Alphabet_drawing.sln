@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9ABB557B-2C69-F483-25BA-646223D2C673}") = "Alphabet_drawing", "Assembly-CSharp.csproj", "{15756F32-9C58-9FCA-44A3-00CF1AF69A0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15756F32-9C58-9FCA-44A3-00CF1AF69A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15756F32-9C58-9FCA-44A3-00CF1AF69A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15756F32-9C58-9FCA-44A3-00CF1AF69A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15756F32-9C58-9FCA-44A3-00CF1AF69A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

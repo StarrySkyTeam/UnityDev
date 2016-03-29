@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/DrawShape.unity
+  isLoaded: 1
+  isActive: 1
