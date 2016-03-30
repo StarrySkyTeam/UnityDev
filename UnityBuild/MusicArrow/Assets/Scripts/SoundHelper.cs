@@ -4,8 +4,10 @@ using System.Collections;
 public class SoundHelper : MonoBehaviour {
     public static SoundHelper Instance;
 
-    public AudioClip rightSound;
-    public AudioClip leftSound;
+    public AudioClip[] rightSound;
+    public AudioClip[] leftSound;
+    private int rIndex;
+    private int lIndex;
     public AudioClip correctSound;
     public AudioClip wrongSound;
 
@@ -24,12 +26,14 @@ public class SoundHelper : MonoBehaviour {
     }
     public void MakeRightSound()
     {
-        MakeSound(rightSound);
+        rIndex = Random.Range(0, rightSound.Length);
+        MakeSound(rightSound[rIndex]);
     }
 
     public void MakeLeftSound()
     {
-        MakeSound(leftSound);
+        lIndex = Random.Range(0, leftSound.Length);
+        MakeSound(leftSound[lIndex]);
     }
     public void MakeCorrectSound()
     {
